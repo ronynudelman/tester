@@ -1,0 +1,5 @@
+COMPILER=g++
+COMPILATION_FLAGS=-Wall -Werror -pedantic-errors
+SOURCE_FILES=../tests.cpp
+TEST_PATH=test
+NUM_OF_TESTS=4
