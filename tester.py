@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
 
+from tester_utils.args import Args
 from tester_utils.config import Config
 
 
 class Tester:
     def __init__(self):
+        args_list = Args.parse_args()
         config_list = Config.parse_file()
         self.compiler = config_list[0]
         self.compilition_flags = config_list[1]

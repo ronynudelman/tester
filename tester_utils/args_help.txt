@@ -1,0 +1,3 @@
+TESTS_HELP=Run only the tests which their index was provided. If no index was provided then all tests will be run.
+COMP_HELP=Only compile without running any tests.
+FLAGS_HELP=Compile with the compilation flags specified in config file.
