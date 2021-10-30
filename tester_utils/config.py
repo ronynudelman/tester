@@ -1,4 +1,5 @@
 class Config:
+
     FILENAME = "config"
     OPTIONS = [
         "COMPILER",

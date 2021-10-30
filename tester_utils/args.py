@@ -2,6 +2,7 @@ import argparse
 
 
 class Args:
+
     ARGS_HELP_FILE = "tester_utils/args_help.txt"
     lines_counter = 0
     with open(ARGS_HELP_FILE, 'r') as args_help_file:
